@@ -3,7 +3,7 @@ import cv2
 import yaml
 
 print('this is my git test')
-
+print('how do i pull?')
 #load yolo annotations based on COCO. 
 annotations_dict = {}
 with open("models/configs/data.yaml", "r") as stream:
