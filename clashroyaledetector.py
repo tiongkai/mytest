@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 import yaml
 
-
+print('this is my git test')
 
 #load yolo annotations based on COCO. 
 annotations_dict = {}
