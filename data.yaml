@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Archer', 'Musketeer', 'Pekka']
+
+roboflow:
+  workspace: yolo-lyd1m
+  project: clashdetector
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-lyd1m/clashdetector/dataset/1
